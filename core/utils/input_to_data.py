@@ -24,7 +24,8 @@ keys = [
     "actual_gpu_allocations",
 ]
 
-solvers = ["NeptuneMinDelayAndUtilization", "NeptuneMinDelay", "NeptuneMinUtilization", "VSVBP", "Criticality", "CriticalityHeuristic", "MCF"]
+# Added ADAPTIVE AGENT option (PoseidonPPO)
+solvers = ["NeptuneMinDelayAndUtilization", "NeptuneMinDelay", "NeptuneMinUtilization", "VSVBP", "Criticality", "CriticalityHeuristic", "MCF", "PoseidonPPO",]
 
 
 def check_input(schedule_input):
